@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.8"  # Укажите версию Python, которую использует ваш проект
+
+# Установка зависимостей
+install:
+  - pip install -r requirements.txt
+
+# Запуск тестов
+script:
+  - pytest
